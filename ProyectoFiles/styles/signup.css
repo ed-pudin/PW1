@@ -1,0 +1,68 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    display: inline;
+    background-color: black;
+}
+header{
+    height: 70px;
+    background-color: blueviolet;
+    font-size: 50px;
+    -webkit-box-shadow: 2px 2px 29px -7px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 2px 29px -7px rgba(0,0,0,0.75);
+    box-shadow: 2px 2px 29px -7px rgba(0,0,0,0.75);
+    padding: 1%;
+
+}  
+form#buscador input[id="search"]{
+    border-radius: 5px;
+    border: 1px solid grey;
+    border-left: 2px solid red;
+    width: 100%;
+    height: 100%
+}
+
+form{
+    margin-inline-start: 10%;
+    width: 30%;
+    height: 30px;
+    display: inline-block;
+}
+.first-square{
+    width: 80%;
+    height: 700px;
+    background-color: white ;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+.first-square .square2{
+    background-image: url("https://images.hdqwalls.com/download/80s-games-minimal-bg-640x960.jpg");
+    background-position: center;
+    width: 50%;
+    height: 700px;
+}
+.first-square .square3{
+    width: 50%;
+    height: 700px;
+    background-color: white;
+}
+.first-square .square3 input[id = "user"],
+input[id="email"],
+input[id= "Contraseña"],
+input[id="CContraseña"]{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 100%;
+    height: 20px;
+    margin-top: 20px;
+    background-color: white;
+    border: 0px;
+    border-bottom: 2px solid black;
+}
+input[type = "submit"]{
+    width: 200px;
+    margin-top: 20px;
+    border-radius: 5px;
+    margin-left: auto;
+    
+}

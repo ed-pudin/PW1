@@ -1,0 +1,93 @@
+body{
+    background-color: #401A1A;
+}
+
+#log-in{
+
+    width: 35%;
+    height: 250px;
+    margin-left: 800px;
+    margin-top: -400px;
+    padding-top: 50px;
+    Color:black;
+    font-size: 20px;
+    background-color: silver;
+
+}
+
+#HowToG{
+
+     width: 0;
+     height: 100%;
+     margin: -10px;
+     border-right: 900px solid transparent;
+     border-top: 745px solid red;
+     background:none;
+     transition: all 300ms;
+     animation: change 10s infinite linear;
+     
+}
+
+@keyframes change{
+    0%{
+        border-top: 745px solid #37BCF9;
+    }
+    25%{
+        border-top: 745px solid green;
+    }
+    50%{
+        border-top: 745px solid yellow;
+    }
+    75%{
+        border-top: 745px solid white;
+    }
+    100%{
+        border-top: 745px solid #37BCF9;
+    }
+}
+
+#Page {
+    width: 0px;
+    height: 0px;
+    background: none;
+    font-size: 50px;
+    position: relative;
+    left: 100px;
+    bottom: -200px;
+}
+
+#log-in input[id="password"], 
+input[id= "name"] {
+    display: block;
+    width: 85%;
+    height: 27px;
+    margin-bottom: 10px;
+    margin: 0px auto;
+    margin-top: 7px;
+    border-radius: 5px;
+    border: 1px solid rgb(255, 124, 37);
+
+}
+
+#log-in input[type="submit"],
+input[type= "button"]{
+    width: 35%;
+    height: 35px;
+    text-align: center;
+    margin-top: 15px;
+    margin-left: 10%;
+    border-radius: 5px;
+    transition: all 1s;
+}
+#log-in input[type="submit"]:hover,
+input[type= "button"]:hover{
+    border-radius: 30px;
+    background-color: #333;
+    color:white;
+
+}
+
+#log-in label{
+    margin-left: 7%;
+ 
+}
